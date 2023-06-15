@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="/css/mustache_pdf_template.css"/>
+</head>
+<body>
+    <p class="bold start">ПДФ из кода mustache</p>
+    <span class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+    <p style="color: black;" class="page-break-after">{{text1}}</p>
+    <p style="color: dark-gray; font-weight:bold">{{text2}}</p>
+    <p>Просто так картинка из ресурсов (image from resources - static image)</p>
+    <img src="{{imagePath}}"/>
+    <p>картинка из массива байтов (downloaded byte array image)</p>
+    <img src="{{imageBase64}}"/>
+    <div class="page-break-after"></div>
+    <p class="bold center-text" style="color:dark-gray;">Поисковое задание (ПЗ)</p>
+</body>
+</html>

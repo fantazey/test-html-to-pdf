@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "PT Root UI";
+    src: url("/fonts/pt-root-ui_regular.ttf");
+}
+@font-face {
+    font-family: "PT Root UI Bold";
+    src: url("/fonts/pt-root-ui_bold.ttf");
+}
+body {
+    font-family: "PT Root UI";
+}
+.bold {
+    font-family: "PT Root UI Bold";
+}
+.start {
+    color: red;
+    border: 1px solid blue;
+}
+.green {
+    color: green;
+}
+.page-break-after {
+    page-break-after: always;
+}
+.center-text {
+    text-align: center;
+}
